@@ -1,2 +1,2 @@
 [dev]
-ansible_study ansible_host=192.168.88.5 ansible_port=22 ansible_user=nikita
+ansible_study ansible_host=192.168.88.21 ansible_port=22 ansible_user=nikita

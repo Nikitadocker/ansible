@@ -1,0 +1,10 @@
+---
+- name: Add iptables rules to remote host
+  hosts: dev
+  become: yes
+  tasks:
+    - name: ICMP
+      ansible.posix.iptables:
+        chain: INPUT
+        protocol: icmp
+        jump: ACCEPT
